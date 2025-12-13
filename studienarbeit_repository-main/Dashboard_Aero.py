@@ -44,8 +44,6 @@ class AeroDashboard:
         self.crear_boton("🧪 Exp 1: Sensibilidad", [sys.executable, "Smart_Player.py", "--conf", "0.60"], "Alta confianza (0.60).")
         self.crear_boton("🔎 Exp 2: Limpieza NMS", [sys.executable, "Smart_Player.py", "--iou", "0.3"], "IoU estricto (0.3).")
         self.crear_boton("🏎️ Exp 3: Modelo Small", [sys.executable, "Smart_Player.py", "--model", "yolov8s.pt"], "Modelo preciso (Small).")
-        self.crear_boton("📏 Exp 4: Baja Res", [sys.executable, "Smart_Player.py", "--imgsz", "320"], "Alta velocidad (320px).")
-
         ttk.Separator(self.frame_left, orient='horizontal').pack(fill='x', pady=15, padx=10)
 
         # --- ZONA DE VIDEO PROPIO (EL BOTÓN MAESTRO) ---
